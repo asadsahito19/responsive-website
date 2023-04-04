@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Sevillana&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Sevillana&family=Source+Code+Pro:ital,wght@1,200&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    position: absolute;
+    background-color: rgb(188 217 229);
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 23px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.blogitem{
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px; 
+}
+p{
+    font-family: 'Source Code Pro', monospace;
+}
+.intro h2 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 12px;
+    font-size: 2em;
+}
+.intro{
+    margin: 90px 88px;
+}
+.intro p{
+    margin: 12px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.2em;
+}
+.skillcontainer{
+    padding: 12px;
+    font-size: 1.2em;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background: rebeccapurple;
+    border: 2px solid black;
+}
+.hundred{
+    width: 265px;
+    background-color: darkmagenta;
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color: orangered;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-left: 10px;
+    margin-top: 10px;    
+}
+.cross{
+    margin-left: 185px;
+    margin-top: 10px;
+}
+@media (max-width: 1615px) {
+    *{
+    /*background-color: rgb(107, 73, 208);*/
+    }
+    .devpic{
+        display: none;
+    }
+    .intro {
+        margin: 50px 8px;
+    }
+    footer{
+        font-size: 15px;
+    }
+}
+footer{
+    width: 100%;
+    height: 2.50vh;
+    background-color: rgba(19, 16, 16, 0.795);
+    color: white;
+    text-align: center;
+    margin-top: 500px;
+    font-family: 'Source Code Pro', monospace;
+}
